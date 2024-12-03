@@ -3,10 +3,7 @@
 int main() {
 	int a;
 	int b;
-	printf("a=");
-	scanf("%d",&a);
-	printf("b=");
-	scanf("%d",&b);
+	scanf("%d %d",&a,&b);
 	if (a>b) {
 		printf("a more than b = %d",a-b);
 	}
