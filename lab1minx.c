@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int main() {
-	int a = 19;
+	int a = 49;
 	int b = 33;
 	if (a>b) {
 		printf("a more than b");
 	}
-	if (b>a) {
+	else {
 		printf("b more than a");
 	}
 }
